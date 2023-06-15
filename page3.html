@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Boîtes de tailles</title>
+  <style>
+    .size-box {
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      border: 1px solid #000;
+      text-align: center;
+      line-height: 60px;
+      margin: 10px;
+      ;
+      
+    }
+    
+    body{
+      background-image: url(bigyvanshop.png);
+      background-size: initial; 
+      
+      background-position: top;
+    
+      
+    }
+    
+    .selected {
+      background-color: #ff0000;
+      color: #fff;}
+    
+
+    </style>
+</head>
+<form action="traitement.php" method="POST">
+  <!-- Votre formulaire de commande ici -->
+</form>
+<body>
+  <div class="size-box">L</div>
+  <div class="size-box">M</div>
+  <div class="size-box">S</div>
+  <div class="size-box">XS</div>
+  <div class="size-box">XL</div>
+  <div class="size-box">XXL</div>
+
+ 
+  
+  <div class="size-box">37</div>
+  <div class="size-box">38</div>
+  <div class="size-box">39</div>
+  <div class="size-box">X40</div>
+  <div class="size-box">41</div>
+  <div class="size-box">42</div>
+  <div class="size-box">43</div>
+  <div class="size-box">44</div>
+  <div class="size-box">45</div>
+  <div class="size-box">36</div>
+
+
+  <script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+      const sizeBoxes = document.querySelectorAll('.size-box');
+      
+      sizeBoxes.forEach((box) => {
+        box.addEventListener('click', () => {
+          sizeBoxes.forEach((box) => {
+            box.classList.remove('selected');
+          });
+          box.classList.add('selected');
+        });
+      });
+    });
+  </script>
+</head>
+<body>
+</body>
+<html>
+<head>
+  <title>Bouton Envoyer</title>
+  <script>
+    function redirectToPage() {
+      // Rediriger vers la page souhaitée
+      window.location.href = "page2.html";
+    }
+  </script>
+</head>
+<body>
+  <!-- Votre contenu HTML ici -->
+  
+  <!-- Bouton Envoyer -->
+  <button onclick="redirectToPage()">Envoyer</button>
+</body>
+<html>
+
+
+<a href="envoyer_message.php"></a>
+<a href="traitement_paiement.php"></a>
+<a href="confirmation.html"></a>
+<a href="traitement_paiement.php"></a>
+<a href="confirmation.html"></a>
+<a href="page3.html"></a>
+<a href="index.html"></a>
+<a href="envoyer_message.php"></a>
+<a href="style.css"></a>
+<a href="SCRIPT.js"></a>
+<a href="var stripe = Stripe'VOTRE_CLE_API_STRIP.js"></a>
+
+</body>
+</html>

@@ -1,0 +1,222 @@
+<style>
+    .size-box {
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      border: 1px solid #000;
+      text-align: center;
+      line-height: 60px;
+      margin: 10px;
+      ;
+      
+    }
+    
+    {
+    font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f2f2f2;
+    }
+  
+
+    /* Styles CSS pour la section de contact */
+    .contact-section {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .contact-form input[type="text"],
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    
+    .contact-form button {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    body{
+      background-image: url(bigyvanshop.png);
+      background-size: initial; 
+      
+      background-position: top;
+    
+      
+    }
+    .selected {
+      background-color: #ff0000;
+      color: #fff;}
+      <style>
+.payment-container {
+  width: 40px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  text-align: center;
+
+}
+body {background-image: url(paiement-securise\ \(1\).png);
+  background-position: top;
+  background-size: cover;
+  opacity: 5;
+
+}
+
+
+
+  
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+label {
+  display: block;
+}
+
+input[type="text"],
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+<style>
+.payment-container {
+  width: 40px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  text-align: center;
+
+}
+body {background-image: url(paiement-securise\ \(1\).png);
+  background-position: top;
+  background-size: cover;
+  opacity: 5;
+
+}
+
+
+
+  
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+label {
+  display: block;
+}
+
+input[type="text"],
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.success-icon {
+  font-size: 48px;
+  color: #00cc66;
+  margin-bottom: 20px;
+  animation: scale 0.5s ease-in-out;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.fade-in {
+  animation: fade 1s ease-in-out;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.size-box {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #000;
+  text-align: center;
+  line-height: 60px;
+  margin: 10px;
+  ;
+  
+}
